@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&family=Hepta+Slab:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Tektur:wght@400;500;600;700&display=swap");
+
+.cards-history {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10%;
+  gap: 3rem;
+}
+
+.card-history {
+  height: 90px;
+  width: 53%; /* PUEDO CAMBIAR EL TAMAÑO PARA AGREGAR FLEX con LA grafica  */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.7rem;
+  background-color: rgba(237, 245, 245, 0.979);
+}
+
+.info_sensor {
+    width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  /* background-color: aquamarine; */
+}
+.info_sensor .co_ppm .co {
+  font-size: 3.2rem;
+  font-family: "Tektur", cursive;
+  font-weight: 600;
+  color: rgb(0, 87, 154);
+}
+
+.card_title .iconco {
+  width: 70px;
+  background-color: rgb(69, 163, 245);
+  border-radius: 50%;
+}
+
+
+.info_date{
+    width: 48%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-left: 2px solid rgb(69, 163, 245);
+  /* background-color: rgb(251, 127, 255); */
+}
+.info_date .info_max span{
+    font-weight: 600;
+}

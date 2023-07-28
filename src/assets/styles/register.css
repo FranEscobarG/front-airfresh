@@ -1,0 +1,25 @@
+.register-container {
+  width: 35%;
+  background-color: #11414a38;
+  border-radius: 5px;
+  border: none;
+  margin: 150px auto;
+  padding: 60px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input {
+  border-radius: 10px;
+  border: 1px solid #a20b0b;
+  box-sizing: border-box;
+  padding: 8px;
+  width: 100%;
+}
+
